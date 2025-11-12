@@ -112,6 +112,13 @@ export function generateDataScienceCategory(): Category {
         statistics: { progress: 50, hoursSpent: 22, performance: 44 },
         course: { id: "ds-python", name: "Data Science with Python" },
       },
+      {
+        id: "pandas-step",
+        type: "COURSE",
+        isDone: false,
+        statistics: { progress: 10, hoursSpent: 3, performance: 100 },
+        course: { id: "pandas", name: "Pandas" },
+      },
     ],
     recomendation: {
       id: "data-ml",
